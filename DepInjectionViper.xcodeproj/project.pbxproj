@@ -17,6 +17,15 @@
 		AD37494326981E6C0034D5D0 /* DescriptionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37494226981E6C0034D5D0 /* DescriptionPresenter.swift */; };
 		AD37494526981E7E0034D5D0 /* DescriptionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37494426981E7E0034D5D0 /* DescriptionInteractor.swift */; };
 		AD374947269822350034D5D0 /* DescriptionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD374946269822350034D5D0 /* DescriptionFactory.swift */; };
+		AD499A012698EC9400216172 /* MockDescriptionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499A002698EC9400216172 /* MockDescriptionInteractor.swift */; };
+		AD499A042698F3B100216172 /* MockSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499A032698F3B100216172 /* MockSelectionInteractor.swift */; };
+		AD499A072698F56700216172 /* SelectionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499A062698F56700216172 /* SelectionFactory.swift */; };
+		AD96642F2698D05800203F22 /* SelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96642E2698D05800203F22 /* SelectionController.swift */; };
+		AD9664312698D05F00203F22 /* SelectionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9664302698D05F00203F22 /* SelectionRootView.swift */; };
+		AD9664332698D06600203F22 /* SelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9664322698D06600203F22 /* SelectionRouter.swift */; };
+		AD9664352698D06C00203F22 /* SelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9664342698D06C00203F22 /* SelectionPresenter.swift */; };
+		AD9664372698D07300203F22 /* SelectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9664362698D07300203F22 /* SelectionProtocols.swift */; };
+		AD9664392698D07900203F22 /* SelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9664382698D07900203F22 /* SelectionInteractor.swift */; };
 		ADC0CD0D2698154C00FF0A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0CD0C2698154C00FF0A09 /* AppDelegate.swift */; };
 		ADC0CD0F2698154C00FF0A09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0CD0E2698154C00FF0A09 /* SceneDelegate.swift */; };
 		ADC0CD112698154C00FF0A09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0CD102698154C00FF0A09 /* ViewController.swift */; };
@@ -61,6 +70,15 @@
 		AD37494226981E6C0034D5D0 /* DescriptionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionPresenter.swift; sourceTree = "<group>"; };
 		AD37494426981E7E0034D5D0 /* DescriptionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionInteractor.swift; sourceTree = "<group>"; };
 		AD374946269822350034D5D0 /* DescriptionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionFactory.swift; sourceTree = "<group>"; };
+		AD499A002698EC9400216172 /* MockDescriptionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDescriptionInteractor.swift; sourceTree = "<group>"; };
+		AD499A032698F3B100216172 /* MockSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectionInteractor.swift; sourceTree = "<group>"; };
+		AD499A062698F56700216172 /* SelectionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionFactory.swift; sourceTree = "<group>"; };
+		AD96642E2698D05800203F22 /* SelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionController.swift; sourceTree = "<group>"; };
+		AD9664302698D05F00203F22 /* SelectionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRootView.swift; sourceTree = "<group>"; };
+		AD9664322698D06600203F22 /* SelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRouter.swift; sourceTree = "<group>"; };
+		AD9664342698D06C00203F22 /* SelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPresenter.swift; sourceTree = "<group>"; };
+		AD9664362698D07300203F22 /* SelectionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionProtocols.swift; sourceTree = "<group>"; };
+		AD9664382698D07900203F22 /* SelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionInteractor.swift; sourceTree = "<group>"; };
 		ADC0CD092698154C00FF0A09 /* DepInjectionViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepInjectionViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC0CD0C2698154C00FF0A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC0CD0E2698154C00FF0A09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				AD374946269822350034D5D0 /* DescriptionFactory.swift */,
+				AD499A062698F56700216172 /* SelectionFactory.swift */,
 			);
 			path = ProtocolFactories;
 			sourceTree = "<group>";
@@ -147,6 +166,7 @@
 		AD374936269819B50034D5D0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AD96642D2698D03C00203F22 /* SelectionModule */,
 				AD37493926981B190034D5D0 /* DescriptionModule */,
 			);
 			path = Modules;
@@ -155,6 +175,7 @@
 		AD37493926981B190034D5D0 /* DescriptionModule */ = {
 			isa = PBXGroup;
 			children = (
+				AD4999FE2698EC7100216172 /* Interactor Mock Data */,
 				AD37493A26981B210034D5D0 /* DescriptionController.swift */,
 				AD37493C26981B2A0034D5D0 /* DescriptionRootView.swift */,
 				AD37493E26981CFD0034D5D0 /* DescriptionRouter.swift */,
@@ -163,6 +184,36 @@
 				AD37494426981E7E0034D5D0 /* DescriptionInteractor.swift */,
 			);
 			path = DescriptionModule;
+			sourceTree = "<group>";
+		};
+		AD4999FE2698EC7100216172 /* Interactor Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD499A002698EC9400216172 /* MockDescriptionInteractor.swift */,
+			);
+			path = "Interactor Mock Data";
+			sourceTree = "<group>";
+		};
+		AD499A022698F3A500216172 /* Interactor Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD499A032698F3B100216172 /* MockSelectionInteractor.swift */,
+			);
+			path = "Interactor Mock Data";
+			sourceTree = "<group>";
+		};
+		AD96642D2698D03C00203F22 /* SelectionModule */ = {
+			isa = PBXGroup;
+			children = (
+				AD499A022698F3A500216172 /* Interactor Mock Data */,
+				AD96642E2698D05800203F22 /* SelectionController.swift */,
+				AD9664302698D05F00203F22 /* SelectionRootView.swift */,
+				AD9664322698D06600203F22 /* SelectionRouter.swift */,
+				AD9664342698D06C00203F22 /* SelectionPresenter.swift */,
+				AD9664362698D07300203F22 /* SelectionProtocols.swift */,
+				AD9664382698D07900203F22 /* SelectionInteractor.swift */,
+			);
+			path = SelectionModule;
 			sourceTree = "<group>";
 		};
 		ADC0CD002698154C00FF0A09 = {
@@ -474,17 +525,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD37494526981E7E0034D5D0 /* DescriptionInteractor.swift in Sources */,
+				AD9664352698D06C00203F22 /* SelectionPresenter.swift in Sources */,
+				AD9664332698D06600203F22 /* SelectionRouter.swift in Sources */,
+				AD499A042698F3B100216172 /* MockSelectionInteractor.swift in Sources */,
+				AD9664392698D07900203F22 /* SelectionInteractor.swift in Sources */,
+				AD9664312698D05F00203F22 /* SelectionRootView.swift in Sources */,
 				AD374935269819420034D5D0 /* MainAssembly.swift in Sources */,
 				AD37494326981E6C0034D5D0 /* DescriptionPresenter.swift in Sources */,
 				ADC0CD172698154C00FF0A09 /* DepInjectionViper.xcdatamodeld in Sources */,
 				AD37493B26981B210034D5D0 /* DescriptionController.swift in Sources */,
 				ADC0CD112698154C00FF0A09 /* ViewController.swift in Sources */,
 				AD37493D26981B2A0034D5D0 /* DescriptionRootView.swift in Sources */,
+				AD96642F2698D05800203F22 /* SelectionController.swift in Sources */,
 				AD374947269822350034D5D0 /* DescriptionFactory.swift in Sources */,
 				AD37494126981D410034D5D0 /* DescriptionProtocols.swift in Sources */,
+				AD9664372698D07300203F22 /* SelectionProtocols.swift in Sources */,
 				ADC0CD0D2698154C00FF0A09 /* AppDelegate.swift in Sources */,
+				AD499A012698EC9400216172 /* MockDescriptionInteractor.swift in Sources */,
 				ADC0CD0F2698154C00FF0A09 /* SceneDelegate.swift in Sources */,
 				AD37493F26981CFD0034D5D0 /* DescriptionRouter.swift in Sources */,
+				AD499A072698F56700216172 /* SelectionFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

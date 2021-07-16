@@ -12,6 +12,14 @@ final class DescriptionPresenter: ViewToPresenterDescriptionProtocol {
     var interactor: PresenterToInteractorDescriptionProtocol?
     var router: PresenterToRouterDescriptionProtocol?
     
+    func moveToSelectionModule (_ view: PresenterToViewDescriptionProtocol) {
+        router?.goToSelectionModule(view: view)
+    }
+    
+    func getData() {
+        print("Requesting data...")
+        print(interactor?.detailsBackData() ?? "no data")
+    }
 }
 
 extension DescriptionPresenter: InteractorToPresenterDescriptionProtocol {

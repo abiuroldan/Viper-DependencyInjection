@@ -19,6 +19,12 @@ final class DescriptionController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        rootView.nextScreenButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
+        presenter?.getData()
+    }
+    
+    @objc private func buttonAction() {
+        presenter?.moveToSelectionModule(self)
     }
     
 }

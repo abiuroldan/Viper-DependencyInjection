@@ -1,5 +1,5 @@
 //
-//  DescriptionInteractor.swift
+//  MockDescriptionInteractor.swift
 //  DepInjectionViper
 //
 //  Created by Abiu Ramirez on 09/07/21.
@@ -7,10 +7,10 @@
 
 import Foundation
 
-final class DescriptionInteractor: PresenterToInteractorDescriptionProtocol {
+final class MockDescriptionInteractor: PresenterToInteractorDescriptionProtocol {
     var presenter: InteractorToPresenterDescriptionProtocol?
     
     func detailsBackData() -> String {
-        return "Data from backend"
+        return "Data from mock class"
     }
 }
